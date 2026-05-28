@@ -1328,21 +1328,10 @@ table thead tr th {
   .status-money {
     align-self: flex-end;
   }
-}
-@media screen and (min-width: 1024px) {
-  .card .card-price {
-    font-size: 34px;
-  }
-  .over-card-txt {
-    flex-direction: row;
-  }
-  .statement-container {
-    flex-direction: row;
-  }
   .all-sections {
     display: grid;
     grid-template-areas: "sidebar main-body";
-    grid-template-columns: 8% 1fr;
+    grid-template-columns: 10% 1fr;
     gap: 15px;
     height: 100vh;
     overflow: hidden;
@@ -1356,10 +1345,27 @@ table thead tr th {
   .hidden {
     display: none;
   }
+  .sidebar-nav ul li {
+    width: fit-content;
+  }
   .nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .card .card-price {
+    font-size: 34px;
+  }
+  .over-card-txt {
+    flex-direction: row;
+  }
+  .statement-container {
+    flex-direction: row;
+  }
+  .all-sections {
+    grid-template-columns: 8% 1fr;
   }
 }
 @media screen and (min-width: 1280px) {
