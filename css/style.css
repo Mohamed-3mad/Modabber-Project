@@ -116,6 +116,7 @@ ul {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  padding: 10px;
 }
 .feature-img-cont.blue-feature {
   background-color: #e9f2ff;
